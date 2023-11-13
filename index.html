@@ -1,345 +1,342 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla de Servidores</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        table {
-            width: 50%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabla de Información</title>
 </head>
-
 <body>
-    <h2>Tabla de Servidores</h2>
+
     <table>
-        <tr>
-            <th>Servidor</th>
-            <th>IP 1</th>
-            <th>IP 2</th>
-        </tr>
-        <tr>
-            <td>MNSVNPROD_ZEKE1</td>
-            <td>172.20.34.31</td>
-            <td>172.20.34.31</td>
-        </tr>
-        <tr>
-            <td>MNWPSEREMIS001_PROD</td>
-            <td>192.168.70.211</td>
-            <td>192.168.70.211</td>
-        </tr>
-        <!-- Agrega más filas con los datos proporcionados -->
-
-        <!-- Ejemplo -->
-        <tr>
-            <td>MNCONVA001_PROD</td>
-            <td>192.168.70.190</td>
-            <td>192.168.70.190</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-
-        <!-- Ejemplo -->
-        <tr>
-            <td>MNCONVA002_PROD</td>
-            <td>192.168.70.161</td>
-            <td>192.168.70.161</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNCONVA003_PROD</td>
-            <td>192.168.70.162</td>
-            <td>192.168.70.162</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNCONVA004_PROD</td>
-            <td>192.168.70.163</td>
-            <td>192.168.70.163</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNCONVA005_PROD</td>
-            <td>192.168.70.164</td>
-            <td>192.168.70.164</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNIBASEDPROD_ZEKE</td>
-            <td>10.94.4.121</td>
-            <td>172.20.28.29</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNEASYRPROD_ZEKE</td>
-            <td>172.20.34.30</td>
-            <td>172.20.34.30</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNIBMI2ANALYTSPROD_ZEKE</td>
-            <td>172.20.34.40</td>
-            <td>172.20.28.39</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNDATASTAGEPROD_001</td>
-            <td>172.20.34.50</td>
-            <td>172.20.28.65</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNINFOSPHERESTREAMS_001</td>
-            <td>172.20.34.51</td>
-            <td>172.20.28.66</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNCOGNOSBIPROD_001</td>
-            <td>172.20.34.52</td>
-            <td>172.20.28.67</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNSPSSSTATICS_CLIENT_001</td>
-            <td>172.20.34.53</td>
-            <td>172.20.28.68</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNDEMENCIA-APP_PROD</td>
-            <td>192.168.70.69</td>
-            <td>172.20.24.144</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNCONSUESP001_PROD</td>
-            <td>192.168.70.154</td>
-            <td>172.20.26.93</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNCOSTEO_PROD</td>
-            <td>192.168.70.203</td>
-            <td>172.20.26.210</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNFPTSWIN001_PROD</td>
-            <td>192.168.70.206</td>
-            <td>172.20.26.218</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNGSRA001_PROD</td>
-            <td>192.168.70.83</td>
-            <td>172.20.27.97</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNONCOAPI001_PROD</td>
-            <td>192.168.70.170</td>
-            <td>172.20.27.176</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNRCAPAPP002_PROD_restore2_4_2021</td>
-            <td>192.168.10.7</td>
-            <td>192.168.10.7</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNSTAGING001_PROD</td>
-            <td>192.168.70.55</td>
-            <td>172.20.28.220</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNPASTILLERO001_APP_PROD</td>
-            <td>192.168.70.95</td>
-            <td>172.20.24.236</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNPASTILLERO001_BD_PROD</td>
-            <td>172.20.32.14</td>
-            <td>172.20.24.237</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNVZOR001_PROD</td>
-            <td>192.168.70.96</td>
-            <td>172.20.24.239</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNCATIMG001_PROD</td>
-            <td>1192.168.70.99</td>
-            <td>172.20.24.245</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MN-ADCONNECT001_PROD</td>
-            <td>192.168.70.134</td>
-            <td>172.20.26.57</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNSARCOPENIA001_PROD</td>
-            <td>192.168.70.147</td>
-            <td>172.20.26.75</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNELASTICSEARCH001_PROD</td>
-            <td>192.168.70.148</td>
-            <td>172.20.26.76</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNOIRS001APP_PROD</td>
-            <td>192.168.70.185</td>
-            <td>172.20.26.231</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNRHS001_PROD</td>
-            <td>192.168.70.187</td>
-            <td>172.20.26.241</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MMNAIRFLOWBD_PROD</td>
-            <td>172.20.33.74</td>
-            <td>172.20.26.245</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNPRUEBAG001_PROD</td>
-            <td>192.168.70.196</td>
-            <td>172.20.26.134</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNCOMPARTIDO001_PROD</td>
-            <td>1172.20.6.49</td>
-            <td>172.20.26.137</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNPYTHONTM001_PROD</td>
-            <td>172.20.33.93</td>
-            <td>172.20.27.70</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNCERPOBD001_PROD</td>
-            <td>172.20.33.98</td>
-            <td>172.20.27.147</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNFTTA001_PROD</td>
-            <td>192.168.70.65</td>
-            <td>172.20.27.241</td>
-        </tr>
-
-        <!-- Continúa con las demás filas -->
-         <!-- Ejemplo -->
-         <tr>
-            <td>MNSISTER001_PROD</td>
-            <td>192.168.70.165</td>
-            <td>192.168.70.165</td>
-        </tr>
-
-
+        <thead>
+            <tr>
+                <th>Hostname</th>
+                <th>Aplicativo</th>
+                <th>IP -1</th>
+                <th>IP -2</th>
+                <th>Observación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNIBASEDPROD_ZEKE</td>
+                <td>IBM I2</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+            <!-- Insertar filas de datos aquí -->
+            <tr>
+                <td>MNEASYRPROD_ZEKE</td>
+                <td>GES PROYECTOS</td>
+                <td>172.20.34.29</td>
+                <td>172.20.28.29</td>
+                <td>Escalado a Infra</td>
+            </tr>
+            <!-- Repetir el formato para otras filas -->
+        </tbody>
     </table>
-</body>
 
+</body>
 </html>
